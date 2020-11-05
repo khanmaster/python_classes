@@ -6,7 +6,22 @@
 
 # classes are a way to bring data and functionality together
 
+class Dog:
 
+
+    def __init__(self, name, colour): # initialising Dog class
+        self.name = name
+        self.colour = colour
+        self.animal_kind = "Canin"
+
+    def bark(self):
+        return "woof"
+fido = Dog("fido", "brown") # creating an object of Dog class
+
+print(fido.name)
+print(fido.colour)
+print(fido.animal_kind)
+print(fido.bark())
 
 
 
